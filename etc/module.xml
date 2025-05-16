@@ -3,6 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="YireoTraining_ExampleLokiAdminEavEntityType">
         <sequence>
+            <module name="Magento_Backend"/>
             <module name="Yireo_LokiAdminComponents"/>
         </sequence>
     </module>
