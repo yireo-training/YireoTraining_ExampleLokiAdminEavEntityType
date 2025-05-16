@@ -13,6 +13,7 @@
                 template="Yireo_LokiAdminComponents::grid.phtml">
                 <arguments>
                     <argument name="provider" xsi:type="string">Magento\Eav\Model\ResourceModel\Entity\Type\Collection</argument>
+                    <argument name="allow_actions" xsi:type="boolean">false</argument>
                 </arguments>
             </block>
         </referenceContainer>
