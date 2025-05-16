@@ -1,0 +1,11 @@
+{
+    "modules": [
+        "Magento_Backend",
+        "Yireo_LokiAdminComponents"
+    ],
+    "components": [
+        "loki_admin_eav_entity_type.grid"
+    ],
+    "config": [],
+    "tests": []
+}
