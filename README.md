@@ -11,4 +11,6 @@ bin/magento module:enable YireoTraining_ExampleLokiAdminEavEntityType
 ### Usage
 Navigate via the menu **Content > EAV Entity Types (Loki)**.
 
+Note that this example module is not about the usage, it is about the code. See how little code was involved to create this grid.
+
 ![Screenshot of grid in action](loki-admin-grid-eav-entity-types.png)
