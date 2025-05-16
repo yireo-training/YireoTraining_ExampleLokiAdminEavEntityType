@@ -12,7 +12,6 @@
                 name="loki_admin_eav_entity_type.grid"
                 template="Yireo_LokiAdminComponents::grid.phtml">
                 <arguments>
-                    <argument name="namespace" xsi:type="string">eav_entity_type</argument>
                     <argument name="provider" xsi:type="string">Magento\Eav\Model\ResourceModel\Entity\Type\Collection</argument>
                 </arguments>
             </block>
