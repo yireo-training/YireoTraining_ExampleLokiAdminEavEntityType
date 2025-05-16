@@ -7,3 +7,5 @@
 composer require yireo-training/magento2-example-loki-admin-eav-entity-type@dev
 bin/magento module:enable YireoTraining_ExampleLokiAdminEavEntityType
 ```
+
+![Screenshot of grid in action](loki-admin-grid-eav-entity-types.png)
