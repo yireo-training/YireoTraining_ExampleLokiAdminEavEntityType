@@ -4,7 +4,7 @@
     <module name="YireoTraining_ExampleLokiAdminEavEntityType">
         <sequence>
             <module name="Magento_Backend"/>
-            <module name="Yireo_LokiAdminComponents"/>
+            <module name="Loki_AdminComponents"/>
         </sequence>
     </module>
 </config>

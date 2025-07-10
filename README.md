@@ -1,6 +1,6 @@
 # YireoTraining_ExampleLokiAdminEavEntityType
 
-**This Magento 2 module demos the usage of [Yireo_LokiAdminComponents](https://github.com/yireo/Yireo_LokiAdminComponents)**
+**This Magento 2 module demos the usage of [Loki_AdminComponents](https://github.com/yireo/Loki_AdminComponents)**
 
 ### Installation
 ```bash
