@@ -1,6 +1,6 @@
 {
     "name": "yireo-training/magento2-example-loki-admin-eav-entity-type",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "N/A",
     "type": "magento2-module",
     "require": {

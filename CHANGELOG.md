@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 02 September 2025
+### Fixed
+- Add CI files
+
 ## [0.0.2] - 24 July 2025
 ### Fixed
 - Update deps with Loki packages
