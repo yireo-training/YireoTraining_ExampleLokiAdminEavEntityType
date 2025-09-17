@@ -1,7 +1,19 @@
 {
+    "sequence": [
+        "Loki_AdminComponents",
+        "Magento_Backend"
+    ],
     "modules": [
+        "Loki_AdminComponents",
+        "Loki_Components",
+        "Loki_CssUtils",
         "Magento_Backend",
-        "Loki_AdminComponents"
+        "Magento_Catalog",
+        "Magento_Customer",
+        "Magento_Directory",
+        "Magento_Eav",
+        "Magento_Theme",
+        "Magento_Ui"
     ],
     "components": [
         "loki_admin_eav_entity_type.grid"
