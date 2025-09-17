@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.4] - 17 September 2025
+### Fixed
+- Allow setting visible flag on grid column
+- Change flag allow_actions into hide_actions
+
 ## [0.0.3] - 02 September 2025
 ### Fixed
 - Add CI files
