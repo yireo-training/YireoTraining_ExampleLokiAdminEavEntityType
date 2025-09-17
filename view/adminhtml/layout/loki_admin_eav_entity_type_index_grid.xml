@@ -14,6 +14,11 @@
                 <arguments>
                     <argument name="provider" xsi:type="string">Magento\Eav\Model\ResourceModel\Entity\Type\Collection</argument>
                     <argument name="hide_actions" xsi:type="boolean">true</argument>
+                    <argument name="columns" xsi:type="array">
+                        <item name="increment_pad_char" xsi:type="array">
+                            <item name="visible" xsi:type="boolean">false</item>
+                        </item>
+                    </argument>
                 </arguments>
             </block>
         </referenceContainer>
