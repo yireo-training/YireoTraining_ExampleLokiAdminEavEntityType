@@ -12,6 +12,7 @@
         "Magento_Customer",
         "Magento_Directory",
         "Magento_Eav",
+        "Magento_Store",
         "Magento_Theme",
         "Magento_Ui"
     ],
