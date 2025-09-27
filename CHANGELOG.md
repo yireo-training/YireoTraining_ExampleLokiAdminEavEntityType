@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 27 September 2025
+### Fixed
+- Loosen constraints with Loki Admin Components
+
 ## [0.0.4] - 17 September 2025
 ### Fixed
 - Allow setting visible flag on grid column
