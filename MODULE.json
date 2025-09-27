@@ -20,5 +20,6 @@
         "loki_admin_eav_entity_type.grid"
     ],
     "config": [],
-    "tests": []
+    "tests": [],
+    "phpcs_severity": "7"
 }
