@@ -1,12 +1,12 @@
 {
-    "name": "yireo-training/magento2-example-loki-admin-eav-entity-type",
+    "name": "yireo-training\/magento2-example-loki-admin-eav-entity-type",
     "version": "0.0.5",
-    "description": "N/A",
+    "description": "N\/A",
     "type": "magento2-module",
     "require": {
-        "loki/magento2-admin-components": "~0.2",
-        "magento/framework": "^103.0",
-        "magento/module-backend": "^102.0"
+        "loki\/magento2-admin-components": "~0.2",
+        "magento\/framework": "^103.0",
+        "magento\/module-backend": "^102.0"
     },
     "license": [
         "OSL-3.0"
@@ -18,5 +18,6 @@
         "psr-4": {
             "YireoTraining\\ExampleLokiAdminEavEntityType\\": ""
         }
-    }
+    },
+    "keywords": []
 }
