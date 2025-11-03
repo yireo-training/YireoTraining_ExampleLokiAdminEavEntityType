@@ -19,5 +19,8 @@
             "YireoTraining\\ExampleLokiAdminEavEntityType\\": ""
         }
     },
-    "keywords": []
+    "keywords": [
+        "loki-components",
+        "loki-example"
+    ]
 }
