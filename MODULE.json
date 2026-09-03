@@ -22,5 +22,7 @@
     "config": [],
     "tests": [],
     "phpcs_severity": "7",
-    "phpstan_level": "4"
+    "phpstan_level": "4",
+    "module_name": "YireoTraining_ExampleLokiAdminEavEntityType",
+    "composer_name": "yireo-training/magento2-example-loki-admin-eav-entity-type"
 }
