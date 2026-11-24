@@ -4,6 +4,7 @@
         <sequence>
             <module name="Loki_AdminComponents"/>
             <module name="Magento_Backend"/>
+            <module name="Magento_Eav"/>
         </sequence>
     </module>
 </config>

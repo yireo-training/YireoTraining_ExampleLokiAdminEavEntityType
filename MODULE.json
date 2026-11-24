@@ -1,7 +1,8 @@
 {
     "sequence": [
         "Loki_AdminComponents",
-        "Magento_Backend"
+        "Magento_Backend",
+        "Magento_Eav"
     ],
     "modules": [
         "Loki_AdminComponents",
