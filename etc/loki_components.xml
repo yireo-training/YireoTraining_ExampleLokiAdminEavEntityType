@@ -2,7 +2,7 @@
 <components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Loki_Components:etc/loki_components.xsd">
     <component
         name="loki_admin_eav_entity_type.grid"
-        viewModel="Loki\AdminComponents\Component\Grid\GridViewModel"
-        repository="Loki\AdminComponents\Component\Grid\GridRepository">
-    </component>
+        group="loki_admin.grid"
+        repository="YireoTraining\ExampleLokiAdminEavEntityType\Component\Grid\ReadOnlyGridRepository"
+    />
 </components>
