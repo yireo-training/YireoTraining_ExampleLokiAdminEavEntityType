@@ -13,6 +13,9 @@
                 template="Loki_AdminComponents::grid.phtml">
                 <arguments>
                     <argument name="provider" xsi:type="string">Magento\Eav\Model\ResourceModel\Entity\Type\Collection</argument>
+                    <argument name="acl_resource" xsi:type="string">YireoTraining_ExampleLokiAdminEavEntityType::grid</argument>
+                    <argument name="save_acl_resource" xsi:type="string">YireoTraining_ExampleLokiAdminEavEntityType::save</argument>
+                    <argument name="delete_acl_resource" xsi:type="string">YireoTraining_ExampleLokiAdminEavEntityType::delete</argument>
                     <argument name="hide_actions" xsi:type="boolean">true</argument>
                     <argument name="columns" xsi:type="array">
                         <item name="increment_pad_char" xsi:type="array">
