@@ -10,6 +10,11 @@
         "magento/module-eav": "^100.0 | ^101.0 | ^102.0",
         "php": ">=8.2 <8.6"
     },
+    "require-dev": {
+        "loki/magento2-components": "^2.10",
+        "phpunit/phpunit": "^10.5",
+        "yireo/magento2-integration-test-helper": "~0.0.23"
+    },
     "license": [
         "OSL-3.0"
     ],

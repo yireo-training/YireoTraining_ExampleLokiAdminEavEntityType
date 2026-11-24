@@ -1,0 +1,6 @@
+{
+    "ignore": [
+        "Magento_Eav",
+        "magento/module-eav"
+    ]
+}
