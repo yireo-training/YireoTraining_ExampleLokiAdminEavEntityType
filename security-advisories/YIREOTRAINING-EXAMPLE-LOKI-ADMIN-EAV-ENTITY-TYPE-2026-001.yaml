@@ -1,0 +1,35 @@
+schema_version: "1.6.0"
+id: YIREOTRAINING-EXAMPLE-LOKI-ADMIN-EAV-ENTITY-TYPE-2026-001
+published: "2026-11-26T00:00:00Z"
+modified: "2026-11-26T00:00:00Z"
+aliases: []
+summary: Broken access control allows unauthorized admin users to modify EAV entity types
+details: >
+  The EAV entity type grid did not declare an ACL resource for its Loki AJAX endpoint, so access
+  fell back to the generic Loki_Components::index resource, and the menu item referred to an
+  undeclared ACL resource. Any admin user with that generic permission could therefore load the
+  grid and act on it. In addition, the grid was only made read-only by hiding its action buttons
+  (hide_actions), while inline edit updates were still accepted server-side. Admin users without
+  the module-specific permissions could thus modify rows of the eav_entity_type table, including
+  class names like entity_model and attribute_model, which can break or alter the behaviour of
+  the shop. Version 0.0.6 enforces dedicated ACL resources for the grid, saving and deleting
+  (nested under Content > Elements) and strips inline edit updates on the server.
+severity:
+  - type: CVSS_V3
+    score: "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H"
+affected:
+  - package:
+      ecosystem: Packagist
+      name: yireo-training/magento2-example-loki-admin-eav-entity-type
+    ranges:
+      - type: ECOSYSTEM
+        events:
+          - introduced: "0.0.1"
+          - fixed: "0.0.6"
+references:
+  - type: PACKAGE
+    url: https://github.com/yireo-training/YireoTraining_ExampleLokiAdminEavEntityType
+database_specific:
+  cwe_ids:
+    - CWE-284
+    - CWE-862
