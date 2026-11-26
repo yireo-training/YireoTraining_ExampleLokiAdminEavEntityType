@@ -12,12 +12,11 @@
     },
     "require-dev": {
         "loki/magento2-components": "^2.10",
+        "loki/magento2-functional-tests": "@dev",
         "phpunit/phpunit": "^10.5",
         "yireo/magento2-integration-test-helper": "~0.0.23"
     },
-    "license": [
-        "OSL-3.0"
-    ],
+    "license": "OSL-3.0",
     "autoload": {
         "files": [
             "registration.php"
